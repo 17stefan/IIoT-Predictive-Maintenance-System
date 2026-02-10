@@ -15,13 +15,6 @@ Cloud (AWS): IoT Core, Lambda, DynamoDB, SNS.
 
 Languages: C++ (Arduino/ESP32), Python (Bridge & Lambda).
 
-Component,ESP32 Pin,Purpose
-DHT22,GPIO 15,Temperature & Humidity Monitoring
-Potentiometer,GPIO 34,Simulated Motor Vibration Level
-Ultrasonic (Trig/Echo),GPIO 5 / 18,Maintenance/Distance Sensing
-I2C LCD,SDA/SCL (Default),Local Status Display
-LED,GPIO 2,Alarm / System Stopped Indicator
-
        Key Features
 1. Predictive Maintenance Logic
 Anomaly Detection: The AWS Lambda function queries DynamoDB for the last 10 telemetry records to calculate a historical average.
