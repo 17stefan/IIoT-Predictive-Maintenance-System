@@ -33,3 +33,4 @@ SNS Integration: Automated email notifications are sent to the maintenance team 
 Telemetry Flow: ESP32 ➡️ HiveMQ ➡️ Python Bridge ➡️ AWS IoT Core ➡️ DynamoDB.
 
 Command Flow: AWS Lambda ➡️ AWS IoT Core ➡️ Python Bridge ➡️ HiveMQ ➡️ ESP32.
+![IIoT System Demo](iiot-system-demo.gif)
